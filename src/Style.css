@@ -186,5 +186,9 @@ a{
 
 }
 
-
+@media screen and (max-width : 600px) {
+  .container{
+    grid-template-columns: repeat(1fr);
+  }
+}
 
