@@ -186,58 +186,5 @@ a{
 
 }
 
-@media screen and (max-width : 600px){
-  .section h1{
-    padding-top: 250px;
-  }
-  .btn-read{
-    top: 43%;
-  }
-  .container{
-    width: 450px;
-    grid-template-columns: 1fr;
-  }
-  .cont{
-    margin: 20px;
-  }
-  .story{
-    margin: 20px;
-  }
-}
-@media screen and (min-width : 600px){
-  
-  .container{
-    grid-template-columns: 1fr 1fr;
-    width: 510px;
-  }
-  .card{
-    height: 400px;
-  }
-  .cont{
-    margin: 20px;
-  }
-  .story{
-    margin: 20px;
-  }
-}
-@media screen and (min-width : 900px){
-  .section h1{
-    padding-top: 10%;
-  color: white;
-  font-size: 40px;
-  }
-  .btn-read{
-    top: 35%;
-  }
-  .container{
-    width: 90%;
-    grid-template-columns: repeat(3 , 1fr);
-  }
-  .cont{
-    margin: 20px;
-  }
-  .story{
-    margin: 20px;
-  }
-}
+
 
