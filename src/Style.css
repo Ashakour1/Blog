@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  font-size: 22px;
+  height: 40px;
+  border-bottom: 1px solid #112e79;
+}
+.logo {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #112e79;
+}
+
+
+.menu a{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #112e79;
+}
+
+.section {
+  background-color: #81d4fa;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  position: relative;
+}
+.section h1 {
+  padding-top: 17%;
+  color: white;
+  font-size: 40px;
+}
+.section h1 span {
+  /* color: #01579b; */
+}
+.section p {
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+}
+
+/* section2  */
+
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 60px;
+}
+.btn-read{
+  position: relative;
+  padding: 15px 15px;
+  top: 30%;
+  background: #112e79;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn-read:hover{
+
+  color: #112e79;
+  background-color: #ffffff;
+}
+.card {
+  height: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  background-color: #8bb9dc;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6px;
+}
+.content p, span{
+  
+  color: #ffffff;
+  margin-top: 10px;
+  font-weight: 800;
+}
+.blog{
+  
+}
+.card .btn {
+  background: transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 2px solid #112e79;
+  margin: 13px 5px;
+  cursor: pointer;
+  
+}
+.btnclick {
+  color: #ffffff;
+}  
+
+
+.btn:hover{
+  background-color: #4f6e9e;
+  color: #112e79;
+  
+}
+.card .blog {
+  padding-top: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+.title h1{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Blog */
+
+.cont{
+ 
+  display: flex;
+  margin: 10px auto 0;
+  max-width: 1110px;
+  border-radius: 5px;
+  background-color: #81d4fa;
+}
+
+.image-review img{
+  width: 400px;
+  height: 100%;
+  
+  
+}
+.blog-text {
+  color: #000000;
+  padding: 30px 0 0 33%;
+}
+
+.blog-text p{
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+  font-weight: 500;
+}
+.copyright{
+  background-color: #81d4fa;
+  height: 40px;
+  color: #112e79;
+  text-align: center;
+  align-items: center;
+ 
+}
+.copyright p{
+
+  padding-top: 10px;
+ 
+}
+.story{
+  margin: 0 auto;
+  max-width: 1110px;
+  margin-top: 20px;
+
+}
+.story blockquote{
+  font-size: 18px;
+  
+}
