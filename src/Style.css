@@ -67,7 +67,7 @@ a{
 .btn-read{
   position: relative;
   padding: 15px 15px;
-  top: 30%;
+  top: 20%;
   background: #112e79;
   border-radius: 10px;
   border: none;
@@ -186,13 +186,8 @@ a{
 
 }
 
+
 @media screen and (max-width : 600px) {
-  .container{
-   
-    grid-template-columns: repeat(1fr);
-  }
-}
-@media screen and (max-width : 500px) {
   .container{
   
     grid-template-columns: repeat(1fr);
