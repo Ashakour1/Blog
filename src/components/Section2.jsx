@@ -9,12 +9,7 @@ const Section2 = () => {
 
   
     return (
-
-
-        <div className="title">
-
-       
-        <h1>Our Latest blog</h1>
+           
         <div className="container">
     
             <div className="card">
@@ -46,7 +41,7 @@ const Section2 = () => {
             </div>
         </div>
         
-        </div>
+        
     )
 }
 
