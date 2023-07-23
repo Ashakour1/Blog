@@ -2,11 +2,19 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Section2 from "./components/Section2";
 import {Routes, Route} from "react-router-dom"
-import Page from "./pages/Page";
+
 import Blogs from "./pages/Blogs";
 import Footer from "./components/footer";
 
+
+
+
 const App = () =>{
+
+// const [page, setPage] =useState("");
+// useEffect(() =>{
+//     document.title = page;
+// },[page])
     return (
         <>
 
@@ -24,13 +32,13 @@ const App = () =>{
     <Route  path="/blogs" element={
         <>
         <Header/>
-        <Page/>
+        <Blogs/>
         </>
     }/>
     <Route  path="/blog" element={
         <>
         <Header/>
-    <Blogs/>
+    {/* <Blogs/> */}
         </>
     
 }

@@ -1,8 +1,10 @@
-import Blog from "../components/Blog"
+import AllBlogs from "../components/AllBlogs";
+
 
 const Blogs = () => {
+  return (
+  <AllBlogs/>
+  )
+};
 
-     return <Blog/>
-}
-
-export default Blogs
+export default Blogs;
