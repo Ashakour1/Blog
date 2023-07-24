@@ -1,30 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AllBlogs = ({Blogg}) =>{
-    
-    return (
-        <div className="container">
-
-
-  <div className="card" style={
-        {
-            minHeight: "100%",
-            background:`linear-gradient(rgba(0, 0 , 0 , 0.1) , rgba(0, 0 , 0 ,0.1)) , url(${Blogg.imageUrl})`,
-            backgroundSize : "cover",
-        }
-        
-    }>
-    <div className="content">
-    <p>{}</p>
-    <span>3min Read</span>
-</div>
-<p className="blog">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius, et?</p>
-<button  className="btn" type="submit"><Link className="btnclick" to="/blog">Learn More!</Link></button>
-</div>
-        </div>
-      
-    )
-}
+const AllBlogs = ({ Blogg  }) => {
+  return (
+    <div className="card">
+      <img src={Blogg.imageUrl} alt="" />
+      <div className="content">
+        <p>{Blogg.blogTitle}</p>
+        <span>{Blogg.readtime}</span>
+      </div>
+      <p className="blog">
+       {Blogg.blogDesc}
+      </p>
+      <button className="btn" type="submit">
+        <Link className="btnclick" to={`/blog/${Blogg.blogTitle}`}>
+          Read More!
+        </Link>
+      </button>
+    </div>
+  );
+};
 
 export default AllBlogs;
