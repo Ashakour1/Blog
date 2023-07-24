@@ -41,7 +41,7 @@ a {
   position: relative;
 }
 .section h1 {
-  padding-top: 17%;
+  padding-top: 12%;
   color: white;
   font-size: 40px;
 }
@@ -66,7 +66,7 @@ a {
 .btn-read {
   position: relative;
   padding: 15px 15px;
-  top: 20%;
+  top: 30%;
   background: #112e79;
   border-radius: 10px;
   border: none;
@@ -183,21 +183,50 @@ span {
   font-size: 24px;
   color: #112e79;
 }
-
-@media screen and (max-width: 600px) {
-  .container {
-    grid-template-columns: 1fr;
-  }
-
+.notFound{
+  text-align: center;
+  color: red;
+  background-color: #112e79;
+  margin: 0 auto;
+  max-width: 1110px;
+  padding-top: 10px;
+  height: 50px;
 }
-@media screen and (max-width: 700px) {
+/* Laptop */
+@media screen and (min-width: 992px) {
   .container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    grid-template-columns: repeat(2, 1fr);
   }
   .section h1{
     padding-top: 17%;
   }
   .btn-read{
     margin-top: 300px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section h1{
+    padding-top: 17%;
+  }
+  .btn-read{
+    margin-top: 300px;
+  }
+  .image-review img{
+    width: 100%;
+  }
+  .blog-text{
+    padding: 30px 0 0 0;
   }
 }
