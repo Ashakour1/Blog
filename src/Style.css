@@ -9,7 +9,7 @@
 body {
   font-family: "Josefin Sans", sans-serif;
 }
-a{
+a {
   text-decoration: none;
 }
 .header {
@@ -27,8 +27,7 @@ a{
   color: #112e79;
 }
 
-
-.menu a{
+.menu a {
   text-decoration: none;
   text-transform: capitalize;
   color: #112e79;
@@ -64,7 +63,7 @@ a{
   grid-template-columns: 1fr 1fr 1fr;
   margin: 20px 60px;
 }
-.btn-read{
+.btn-read {
   position: relative;
   padding: 15px 15px;
   top: 20%;
@@ -76,10 +75,10 @@ a{
   cursor: pointer;
   font-size: 17px;
 }
-.btn-read:hover{
+.btn-read:hover {
   background-color: #4f6e9e;
 }
-.btn-read a{
+.btn-read a {
   color: #ffffff;
 }
 
@@ -101,8 +100,8 @@ a{
   align-items: center;
   padding: 0 6px;
 }
-.content p, span{
-  
+.content p,
+span {
   color: #ffffff;
   margin-top: 10px;
   font-weight: 800;
@@ -115,33 +114,29 @@ a{
   border: 2px solid #112e79;
   margin: 13px 5px;
   cursor: pointer;
-  
 }
 .btnclick {
   color: #ffffff;
-}  
+}
 
-
-.btn:hover{
+.btn:hover {
   background-color: #4f6e9e;
   color: #112e79;
-  
 }
 .card .blog {
   padding-top: 10px;
   color: #ffffff;
   text-align: center;
 }
-.title h1{
-    font-size: 24px;
-    text-align: center;
-    margin-top: 20px;
+.title h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Blog */
 
-.cont{
- 
+.cont {
   display: flex;
   margin: 10px auto 0;
   max-width: 1110px;
@@ -149,64 +144,55 @@ a{
   background-color: #81d4fa;
 }
 
-.image-review img{
+.image-review img {
   width: 400px;
   height: 100%;
-  
-  
 }
 .blog-text {
   color: #112e79;
   padding: 30px 0 0 30%;
 }
 
-.blog-text p{
+.blog-text p {
   color: #ffffff;
   margin-top: 20px;
   font-weight: 700;
   font-size: 22px;
 }
-.copyright{
+.copyright {
   background-color: #81d4fa;
   height: 40px;
   color: #112e79;
   text-align: center;
   align-items: center;
- 
 }
-.copyright p{
-
+.copyright p {
   padding-top: 10px;
- 
 }
-.story{
+.story {
   margin: 0 auto;
   max-width: 1110px;
   margin-top: 20px;
-
 }
 
-.blog-text .read p{
+.blog-text .read p {
   color: #112e79;
   font-size: 20px;
 }
-.story blockquote{
+.story blockquote {
   font-size: 24px;
   color: #112e79;
-
 }
 
-
-@media screen and (max-width : 600px) {
-  .container{
+@media screen and (max-width: 600px) {
+  .container {
     grid-template-columns: 1fr;
-    
   }
-  .section h1{
+  .section h1 {
     padding-top: 30%;
-    font-size: 45px ;
+    font-size: 45px;
   }
-  .btn-read{
+  .btn-read {
     margin-top: 40%;
   }
   .section p {
@@ -215,7 +201,24 @@ a{
     color: #000000;
     padding-top: 50px;
   }
-  
+  .cont {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    max-width: 600px;
+    border-radius: 5px;
+    background-color: #81d4fa;
+  }
+  .image-review img {
+    width: 200px;
+    height: 100%;
+  }
+  .blog-text {
+    color: #112e79;
+    padding: 30px 0 0 30%;
+  }
+  .story {
+    margin: 10px;
+    max-width: 600px;
+    margin-top: 20px;
+  }
 }
-
-
